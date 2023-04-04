@@ -1,0 +1,45 @@
+/* stili pagina */
+
+html {
+    margin: 8px;
+}
+
+body {
+    background-color: aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+p {
+    font-style: italic;
+    color: black;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+figure img {
+    border: 9px;
+    border-color: blue;
+    border-style: double;
+}
+
+.illustrazione img {
+    box-sizing: border-box;
+    padding: 20px;
+    min-width: 250px;
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+}
